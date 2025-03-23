@@ -43,6 +43,9 @@ Pour mettre en place un contrôleur d'accès via _ingress-nginx_, procédez comm
     NAME                       TYPE           CLUSTER-IP      EXTERNAL-IP    PORT(S)                      AGE
     ingress-nginx-controller   LoadBalancer   10.106.26.254   37.156.43.25   80:32446/TCP,443:30644/TCP   32h
    ```
+4. **Zone DNS**
+   Ajouter une zone DNS de type `A` dans le manager Infomaniak vers l'adresse IP affichée par la commande ci-dessus.
+
 
 ## Installation de cert-manager
 
